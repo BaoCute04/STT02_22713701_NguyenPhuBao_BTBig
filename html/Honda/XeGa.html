@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Honda Xe ga - MotorBikeVN</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <script src="../../js/jquery-3.7.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-md">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <a class="navbar-brand" href="../../html/home.html">Siêu gia dụng</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="../home.html">Trang Chủ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../../html/GioiThieu.html">Giới thiệu</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../../html/GDchinh/theodoidonhang.html">Theo dõi đơn hàng</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../../html/GDchinh/phanhoi.html">Phản hồi</a>
+                      </li>
+                        <li class="nav-item">
+                            <div id="user_box"> 
+                                <a class="nav-link" href="../GDchinh/dangky.html" id="register_user"> Đăng ký </a>
+                                <div class="nav-link" id="kytu"> / </div>
+                                <a class="nav-link" href="../GDchinh/dangnhap.html" id="login_user"> Đăng nhập</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+          <div class="header">
+              <img id="logo" src="../../image/AnhNen.jpg" alt="banner" usemap="#imageMap">
+              <map name="imageMap">
+                  <area shape="rect" coords="0,0,100,100" href="home.html" alt="home">
+                  <area shape="rect" coords="534,18,693,91" href="https:/www.google.com/maps/place/12+Nguy%E1%BB%85n+V%C4%83n+B%E1%BA%A3o/@10.8223799,106.6848045,16.5z/data=!4m7!3m6!1s0x317528e5496d03cf:0xa5b8e7395ec636b9!4b1!8m2!3d10.8222053!4d106.6874994!16s%2Fg%2F11gd39c82c?hl=vi-VN&entry=ttu" alt="diachi">
+              </map>
+              <div class="search">
+                <input type="text"  placeholder="Tìm sản phẩm...">
+                <button type="search"><img src="../../image/Search.png" alt="Search"></button>
+                <button type="search"><img src="../../image/GioHang.png" alt="gio" id="giohang" title="giỏ hàng" onclick="window.location.href='../html/GioHang.html'"></button>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Honda
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="../../html/Honda/XeGa.html">Xe ga</a>
+                            <a class="dropdown-item" href="../../html/Honda/XeSo.html">Xe số - xe côn</a>
+                            <a class="dropdown-item" href="../../html/Honda/XeTheThao.html">Xe thể thao</a>
+                            <a class="dropdown-item" href="../../html/Honda/XePhanKhoiLon.html">Phân khối lớn</a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Yamaha
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="../../html/Yamaha/XeGa.html">Xe ga</a>
+                            <a class="dropdown-item" href="../../html/Yamaha/XeSo.html">Xe số</a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Suzuki
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">  
+                            <a class="dropdown-item" href="../../html/Suzuki/XeGa.html">Xe ga</a>
+                            <a class="dropdown-item" href="../../html/Suzuki/XeSo.html">Xe số</a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            SYM
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="../../html/SYM/XeGa.html">Xe ga</a>
+                            <a class="dropdown-item" href="../../html/SYM/XeSo.html">Xe số</a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Piaggio
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="../../html/Piaggio/XeGa.html">Xe ga</a>
+                            <a class="dropdown-item" href="../../html/Piaggio/XeSo.html">Xe số</a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ducati
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="../../html/Ducati/XeGa.html">Xe ga</a>
+                            <a class="dropdown-item" href="../../html/Ducati/XeSo.html">Xe số</a>
+                          </div>
+                        </li>
+                        <li class="nav-item" id="fanpage">
+                            <a class="nav-link" id="linkpage" href="https://www.facebook.com/">FANPAGE</a>
+                        </li>
+                      </ul>
+                  </div>
+                </nav>
+            </div>
+      
+        </div>
+        <div class="row_Link">
+          <a href="../html/home.html">Trang chủ</a>
+          <span> > </span>
+          <a href="#">Honda</a>
+          <span> > </span>
+          <a href="../Honda/XeGa.html">Xe ga</a>
+        </div>
+        <div class="row sp">
+          <div class="col-md-4">
+            <div class="product-box">
+              <a href="#">
+                <img src="../../image/HondaXega1.png" alt="Product" class="product-img">
+              </a>
+              <h5 class="text-center" id="tensp">Vision</h5>
+              <p class="text-center" id="gia">39.000.000₫</p>
+              <div class="text-center">
+                <button class="btn btn-primary">Xem chi tiết</button>
+                <button class="btn btn-success" onclick="window.location.href='../GDchinh/dangnhap.html'">Thêm vào giỏ hàng</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-box">
+              <a href="#">
+                <img src="../../image/HondaXega2.png" alt="Product" class="product-img">
+              </a>
+              <h5 class="text-center" id="tensp">SH 350i </h5>
+              <p class="text-center" id="gia">150.000.000₫</p>
+              <div class="text-center">
+                <button class="btn btn-primary">Xem chi tiết</button>
+                <button class="btn btn-success" onclick="window.location.href='../GDchinh/dangnhap.html'">Thêm vào giỏ hàng</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-box">
+              <a href="#">
+                <img src="../../image/HondaXega3.png" alt="Product" class="product-img">
+              </a>
+              <h5 class="text-center" id="tensp">Air Blade</h5>
+              <p class="text-center" id="gia">59.500.000₫</p>
+              <div class="text-center">
+                <button class="btn btn-primary">Xem chi tiết</button>
+                <button class="btn btn-success" onclick="window.location.href='../GDchinh/dangnhap.html'">Thêm vào giỏ hàng</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer">
+          <div class="col-md-12 footer-content">
+            <p>Công ty MotorBikeVN - Địa chỉ: 37 Nguyễn Huệ, Quận 1, Thành phố HCM</p>
+            <p>Số điện thoại: 03 55 281 276 - Email: 22713701.bao@student.iuh.edu.vn</p>
+            <div class="footer-links">
+              <a href="../../html/home.html">Trang chủ</a>
+              <a href="#">Sản phẩm</a>
+              <a href="#">Thông tin</a>
+              <a href="#">Chính sách bảo hành</a>
+              <a href="../../html/GDchinh/sitemap.html">Sitemap</a>
+            </div>
+          </div>
+      </div>
+    </div>
+</body>
+</html>
